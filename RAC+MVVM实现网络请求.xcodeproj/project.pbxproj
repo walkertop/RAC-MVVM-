@@ -9,23 +9,30 @@
 /* Begin PBXBuildFile section */
 		A626C4931D61AD6C00087DF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A626C4921D61AD6C00087DF4 /* main.m */; };
 		A626C4961D61AD6C00087DF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A626C4951D61AD6C00087DF4 /* AppDelegate.m */; };
-		A626C4991D61AD6C00087DF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A626C4981D61AD6C00087DF4 /* ViewController.m */; };
 		A626C49C1D61AD6C00087DF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A626C49A1D61AD6C00087DF4 /* Main.storyboard */; };
 		A626C49E1D61AD6C00087DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A626C49D1D61AD6C00087DF4 /* Assets.xcassets */; };
 		A626C4A11D61AD6C00087DF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A626C49F1D61AD6C00087DF4 /* LaunchScreen.storyboard */; };
+		A626C4AC1D61AF8900087DF4 /* RequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A626C4A91D61AF8900087DF4 /* RequestViewModel.m */; };
+		A626C4AD1D61AF8900087DF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A626C4AB1D61AF8900087DF4 /* ViewController.m */; };
+		E18D8C002A61F5243E2B881B /* Pods_RAC_MVVM______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E95A78BE9CABB7C628B208 /* Pods_RAC_MVVM______.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		215A44583A88B210F56D449B /* Pods-RAC+MVVM实现网络请求.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC+MVVM实现网络请求.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC+MVVM实现网络请求/Pods-RAC+MVVM实现网络请求.debug.xcconfig"; sourceTree = "<group>"; };
+		38E95A78BE9CABB7C628B208 /* Pods_RAC_MVVM______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_RAC_MVVM______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		402044E3C5C70B36B038F28D /* Pods-RAC+MVVM实现网络请求.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC+MVVM实现网络请求.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC+MVVM实现网络请求/Pods-RAC+MVVM实现网络请求.release.xcconfig"; sourceTree = "<group>"; };
 		A626C48E1D61AD6C00087DF4 /* RAC+MVVM实现网络请求.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAC+MVVM实现网络请求.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A626C4921D61AD6C00087DF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A626C4941D61AD6C00087DF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A626C4951D61AD6C00087DF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A626C4971D61AD6C00087DF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A626C4981D61AD6C00087DF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A626C49B1D61AD6C00087DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A626C49D1D61AD6C00087DF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A626C4A01D61AD6C00087DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A626C4A21D61AD6C00087DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A626C4A81D61AF8900087DF4 /* RequestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewModel.h; sourceTree = "<group>"; };
+		A626C4A91D61AF8900087DF4 /* RequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewModel.m; sourceTree = "<group>"; };
+		A626C4AA1D61AF8900087DF4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A626C4AB1D61AF8900087DF4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E18D8C002A61F5243E2B881B /* Pods_RAC_MVVM______.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69429B55105D64C92305C087 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				215A44583A88B210F56D449B /* Pods-RAC+MVVM实现网络请求.debug.xcconfig */,
+				402044E3C5C70B36B038F28D /* Pods-RAC+MVVM实现网络请求.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A626C4851D61AD6C00087DF4 = {
 			isa = PBXGroup;
 			children = (
 				A626C4901D61AD6C00087DF4 /* RAC+MVVM实现网络请求 */,
 				A626C48F1D61AD6C00087DF4 /* Products */,
+				69429B55105D64C92305C087 /* Pods */,
+				BCE8DE53A31E9F14FD15F061 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +79,10 @@
 			children = (
 				A626C4941D61AD6C00087DF4 /* AppDelegate.h */,
 				A626C4951D61AD6C00087DF4 /* AppDelegate.m */,
-				A626C4971D61AD6C00087DF4 /* ViewController.h */,
-				A626C4981D61AD6C00087DF4 /* ViewController.m */,
+				A626C4A81D61AF8900087DF4 /* RequestViewModel.h */,
+				A626C4A91D61AF8900087DF4 /* RequestViewModel.m */,
+				A626C4AA1D61AF8900087DF4 /* ViewController.h */,
+				A626C4AB1D61AF8900087DF4 /* ViewController.m */,
 				A626C49A1D61AD6C00087DF4 /* Main.storyboard */,
 				A626C49D1D61AD6C00087DF4 /* Assets.xcassets */,
 				A626C49F1D61AD6C00087DF4 /* LaunchScreen.storyboard */,
@@ -79,6 +100,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BCE8DE53A31E9F14FD15F061 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38E95A78BE9CABB7C628B208 /* Pods_RAC_MVVM______.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A626C4A51D61AD6C00087DF4 /* Build configuration list for PBXNativeTarget "RAC+MVVM实现网络请求" */;
 			buildPhases = (
+				774C7462B7C980F26B82D7A1 /* Check Pods Manifest.lock */,
 				A626C48A1D61AD6C00087DF4 /* Sources */,
 				A626C48B1D61AD6C00087DF4 /* Frameworks */,
 				A626C48C1D61AD6C00087DF4 /* Resources */,
+				149ECD2F41F54DCCC6821E14 /* Embed Pods Frameworks */,
+				D67F6DACF08DE11FF221CC5E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,14 +177,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		149ECD2F41F54DCCC6821E14 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC+MVVM实现网络请求/Pods-RAC+MVVM实现网络请求-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		774C7462B7C980F26B82D7A1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D67F6DACF08DE11FF221CC5E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC+MVVM实现网络请求/Pods-RAC+MVVM实现网络请求-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A626C48A1D61AD6C00087DF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A626C4991D61AD6C00087DF4 /* ViewController.m in Sources */,
 				A626C4961D61AD6C00087DF4 /* AppDelegate.m in Sources */,
 				A626C4931D61AD6C00087DF4 /* main.m in Sources */,
+				A626C4AD1D61AF8900087DF4 /* ViewController.m in Sources */,
+				A626C4AC1D61AF8900087DF4 /* RequestViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +345,7 @@
 		};
 		A626C4A61D61AD6C00087DF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 215A44583A88B210F56D449B /* Pods-RAC+MVVM实现网络请求.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "RAC+MVVM实现网络请求/Info.plist";
@@ -275,6 +357,7 @@
 		};
 		A626C4A71D61AD6C00087DF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 402044E3C5C70B36B038F28D /* Pods-RAC+MVVM实现网络请求.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "RAC+MVVM实现网络请求/Info.plist";
@@ -303,6 +386,7 @@
 				A626C4A71D61AD6C00087DF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

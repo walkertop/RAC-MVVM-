@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  RAC+MVVM实现网络请求
+//  RAC+MVVM网络请求
 //
-//  Created by 郭彬 on 16/8/15.
+//  Created by 郭彬 on 16/8/9.
 //  Copyright © 2016年 walker. All rights reserved.
 //
 
